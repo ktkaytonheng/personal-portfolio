@@ -1,0 +1,45 @@
+<style is:global>
+    @font-face {
+        font-family: 'Modern Sans-Serif';
+        src: url('/fonts/modern-sans-serif.ttf');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    body {
+        font-family: 'Modern Sans-Serif', sans-serif;
+    }
+
+    /* PC */
+    h1 {
+        font-size: clamp(32px, 1.67vw, 40px);
+    }
+
+    h2 {
+        font-size: clamp(24px, 1.25vw, 32px);
+    }
+
+    h3 {
+        font-size: clamp(16px, 1vw, 24px);
+    }
+
+    p {
+        font-size: clamp(12px, 0.8vw, 16px);
+    }
+
+    /* Tablets */
+    @media (max-width: 1024px) {
+
+    }
+
+    /*  Large phones */
+    @media (max-width: 767px) {
+
+    }
+
+    /* Small phones */
+    @media (max-width: 480px) {
+
+    }
+</style>
